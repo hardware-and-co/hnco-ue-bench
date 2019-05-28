@@ -1,16 +1,14 @@
 @echo off
 
 cd UnrealEngine
-
 call Engine\Build\BatchFiles\Clean.bat -Target="ShaderCompileWorker Win64 Development" -Target="UE4Editor Win64 Development"
 
 :: Compilation
-set start=%time%t
+set start=%time%
 call Engine\Build\BatchFiles\Build.bat -Target="ShaderCompileWorker Win64 Development" -Target="UE4Editor Win64 Development" -WaitMutex -FromMsBuild
 set end=%time%
 
 cd ..\
-
 :: Found on https://stackoverflow.com/questions/673523/how-do-i-measure-execution-time-of-a-command-on-the-windows-command-line
 :: Print time in a readable format
 set options="tokens=1-4 delims=:.,"
