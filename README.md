@@ -16,10 +16,7 @@ Lire les dernières lignes produites par la commande, de format :
 Installez la version **portable** Windows de Git (extraire au même endroit que le .bat),
 cela devrait créer un dossier *PortableGit*.
 ### Visual Studio
-Installez [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/), cochez les cases *Game development with C++* et, dans *fonctionnalités optionnelles*, la case *Unreal Engine installer* et *MSBuild* dans l'onglet *Individual Components* (6.65 Go, peut nécessiter le redémarrage du système).
-
-## Note
-
+Installez [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/), cochez les cases *Game development with C++* et, dans *fonctionnalités optionnelles*, la case *Unreal Engine installer* ainsi que *MSBuild* dans l'onglet *Individual Components* (6.65 Go, peut nécessiter le redémarrage du système).
 
 Copyright © 2000 Nicolas Derumigny <nd@comptoir-hardware.com>.
 This work is free. You can redistribute it and/or modify it under the
