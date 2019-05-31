@@ -16,7 +16,7 @@ Lire les dernières lignes produites par la commande, de format :
 Installez la version **portable** Windows de Git (extraire au même endroit que le .bat),
 cela devrait créer un dossier *PortableGit*.
 ### Visual Studio
-Installez [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/), cochez la case *Game development with C++*, ainsi que *.NET Framework 4.6.2 SDK* et *MSBuild* dans l'onglet *Individual Components* (5,88 Go, peut nécessiter le redémarrage du système).
+Installez [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/), cochez dans l'onglet *Workload* la case *Game development with C++*, ainsi que, dans l'onglet *Individual Components* cette fois-ci, les cases *.NET Framework 4.6.2 Targetting Pack*, *.NET Framework 4.6.2 SDK* et *MSBuild* (6,01 Go, peut nécessiter le redémarrage du système).
 
 Copyright © 2000 Nicolas Derumigny <nd@comptoir-hardware.com>.
 This work is free. You can redistribute it and/or modify it under the
