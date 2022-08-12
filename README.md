@@ -1,11 +1,11 @@
-Comptoir du Hardware - Benchmark compilation UE 4.22
-====================================================
+Comptoir du Hardware - Benchmark compilation UE 5.0.3
+=====================================================
 
 Benchmark de compilation utilisé pour les tests CPU du [Comptoir du Hardware](http://www.comptoir-hardware.com/). Clone, configure, lance une compilation de
-l'Unreal Engine 4.22.2 et affiche le temps d'exécution de la compilation.
+l'Unreal Engine 5.0.3 et affiche le temps d'exécution de la compilation.
 
 ## Utilisation
-Cliquez ou lancez dans une invite de commande `init-bench-ue4.bat` pour lancer la procédure de téléchargement des fichiers source Unreal Engine 4.22.2. Une fois celle-ci terminée, lancez `bench-ue4.bat`.
+Cliquez ou lancez dans une invite de commande `init-bench-ue4.bat` pour lancer la procédure de téléchargement des fichiers source Unreal Engine 5.0.3. Une fois celle-ci terminée, lancez `bench-ue4.bat`.
 
 ## Sortie
 Lire les dernières lignes produites par la commande, de format :

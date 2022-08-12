@@ -1,11 +1,11 @@
 @echo off
 
 cd UnrealEngine
-call Engine\Build\BatchFiles\Clean.bat -Target="ShaderCompileWorker Win64 Development" -Target="UE4Editor Win64 Development"
+call Engine\Build\BatchFiles\Clean.bat -Target="ShaderCompileWorker Win64 Development" -Target="UE5Editor Win64 Development"
 
 :: Compilation
 set start=%time%
-call Engine\Build\BatchFiles\Build.bat -Target="ShaderCompileWorker Win64 Development" -Target="UE4Editor Win64 Development" -WaitMutex -FromMsBuild
+call Engine\Build\BatchFiles\Build.bat -Target="ShaderCompileWorker Win64 Development" -Target="UE5Editor Win64 Development" -WaitMutex -FromMsBuild
 set end=%time%
 
 cd ..\
