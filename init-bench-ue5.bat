@@ -1,11 +1,10 @@
 @echo off
 
 :: Cloning repo
-PortableGit\bin\git.exe clone https://github.com/EpicGames/UnrealEngine.git
-cd UnrealEngine
-..\PortableGit\bin\git.exe checkout 5.0.3-release
+PortableGit\bin\git.exe clone --depth 1 --branch 5.0.3-release https://github.com/EpicGames/UnrealEngine.git
 
 :: Unreal Engine internal cloning mechanism
+cd UnrealEngine
 call Setup.bat
 call GenerateProjectFiles.bat
 cd ..
